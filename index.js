@@ -25,7 +25,8 @@ function divide(a, b)
 // incrementing function
 function inc(a)
 {
-  return a++
+  a++
+  return a
 }
 
 // decrementing function
