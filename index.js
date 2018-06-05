@@ -32,5 +32,6 @@ function inc(a)
 // decrementing function
 function dec(a)
 {
-  return a--
+  a--
+  return a
 }
