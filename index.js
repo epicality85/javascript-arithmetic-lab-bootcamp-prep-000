@@ -35,3 +35,16 @@ function dec(a)
   a--
   return a
 }
+
+// parsing integers from var
+function makeInt(a)
+{
+  return parseInt(a, 10)
+}
+
+// preserving decimals
+function preserveDecimal(a)
+{
+  return parseFloat(a)
+}
+
