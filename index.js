@@ -22,3 +22,14 @@ function divide(a, b)
   return a / b
 }
 
+// incrementing function
+function inc(a)
+{
+  return a++
+}
+
+// decrementing function
+function dec(a)
+{
+  return a--
+}
